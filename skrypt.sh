@@ -1,4 +1,13 @@
+@@ -1,5 +1,11 @@
 #! /bin/bash
+
+if [ " $1 "  ==  " --help " ] ;  następnie
+echo  " Dostepne opcje:   "
+echo  " --data wyswietla aktualna data "
+echo  " --logs LICZBA tworzy LICZBA plikow o i log LICZBA.txt do nich wpisuje "
+echo  " --logs jak wyzej ale tworzyliśmy 100 plikow "
+fi
+
 
 dzisiaj= $( data )
 if [ " $1 "  ==  " --date " ] ; 
