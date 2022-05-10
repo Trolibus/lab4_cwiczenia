@@ -7,6 +7,17 @@ echo  $dzisiaj
 fi
 
 if [ " $1 "  ==  " --logs " ] ;
+
+if [ " $1 "  ==  " --logs " ] && [ -n  " ​​$2 " ] ;
+następnie
+dla  mnie w  $( seq  $ 2 )
+robić
+	echo log $i  >> log $i .txt
+	echo  $0  >> log $i .txt
+	echo  $dzisiaj  >> log $i .txt
+zrobione
+elif [ " $1 "  ==  " --logs " ] ;
+
 następnie
 b=100
 dla  i  w  $( seq 100 )
